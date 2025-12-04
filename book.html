@@ -43,7 +43,6 @@
 		  height: auto;
 		  display: block;
 		  object-fit: contain; /* mantiene proporción exacta (no recorta) */
-		  border-radius: 6px;
 		}
 		
 		/* BREAKPOINTS (de mayor a menor): ajusta según tu diseño */
@@ -487,5 +486,46 @@
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/element-in-view.js"></script>
         <script src="js/main.js"></script>
+		<script>
+		  (function($){
+		    $(document).ready(function(){
+		
+		      // Espera a que las imágenes carguen y luego init/re-layout Isotope
+		      var $grid = $('.grid.col4');
+		
+		      if ($grid.length && typeof $.fn.imagesLoaded === 'function' && typeof $.fn.isotope === 'function') {
+		        $grid.imagesLoaded().always( function() {
+		          // Inicializa Isotope si no está inicializado aún
+		          if (typeof $grid.data('isotope') === 'undefined') {
+		            $grid.isotope({
+		              itemSelector: '.grid-item',
+		              percentPosition: true,
+		              masonry: {
+		                // usar el ancho del propio item
+		                columnWidth: '.grid-item'
+		              }
+		            });
+		          } else {
+		            $grid.isotope('layout');
+		          }
+		        });
+		
+		        // Recalculamos layout al redimensionar ventana (debounced)
+		        var resizeTimer;
+		        $(window).on('resize', function(){
+		          clearTimeout(resizeTimer);
+		          resizeTimer = setTimeout(function(){
+		            $grid.isotope('layout');
+		          }, 150);
+		        });
+		      } else {
+		        // fallback si no existen imagesLoaded / isotope
+		        $(window).on('load resize', function(){
+		        });
+		      }
+		
+		    });
+		  })(jQuery);
+		</script>
     </body>
 </html>
