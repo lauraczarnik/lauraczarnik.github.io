@@ -21,6 +21,30 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
 
+		<!-- NUEVO CSS PARA 4 COLUMNAS -->
+        <style>
+            /* ESPACIO ENTRE FOTOS EN TODAS LAS CATEGORÍAS */
+		.grid.col4 .grid-item {
+		    padding: 15px;   /* ← Aumenta o disminuye el espacio aquí */
+		    box-sizing: border-box;
+		}
+		
+		/* Ajustar márgenes exteriores para que el grid siga centrado */
+		.grid.col4 {
+		    margin-left: -15px;
+		    margin-right: -15px;
+		}
+		
+		/* Asegura que las imágenes respetan su tamaño natural */
+		.grid.col4 .grid-item img {
+		    width: 100%;
+		    height: auto;
+		    object-fit: contain;  /* ← mantiene 100% la proporción original */
+		    display: block;
+		    border-radius: 6px;
+		}
+        </style>
+
     </head>
 
     <body>
@@ -106,17 +130,17 @@
                           </a>
                     </div>
                     <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0869.jpg">
+                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0915.jpg">
                             <figure class="gallery-image">
-                              <img src="img/gallery/LAURA BRUTOS0869.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
+                              <img src="img/gallery/LAURA BRUTOS0915.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
                                
                             </figure>
                           </a>
                     </div>
-                    <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0915.jpg">
+					<div class="grid-item actoral">
+                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0869.jpg">
                             <figure class="gallery-image">
-                              <img src="img/gallery/LAURA BRUTOS0915.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
+                              <img src="img/gallery/LAURA BRUTOS0869.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
                                
                             </figure>
                           </a>
@@ -193,40 +217,10 @@
                             </figure>
                           </a>
                     </div>
-                     <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS1003.jpg">
-                            <figure class="gallery-image">
-                              <img src="img/gallery/LAURA BRUTOS1003.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
-                               
-                            </figure>
-                          </a>
-                    </div>
-                     <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0985.jpg">
-                            <figure class="gallery-image">
-                              <img src="img/gallery/LAURA BRUTOS0985.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
-                               
-                            </figure>
-                          </a>
-                    </div>
-                     <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0939.jpg">
-                            <figure class="gallery-image">
-                              <img src="img/gallery/LAURA BRUTOS0939.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
-                               
-                            </figure>
-                          </a>
-                    </div>
-                    <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0780.jpg">
-                            <figure class="gallery-image">
-                              <img src="img/gallery/LAURA BRUTOS0780.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
-                               
-                            </figure>
-                          </a>
-                    </div>
+
                     
-                    
+
+					
 		            <div class="grid-item habilidades">
                        <a class="popup-image" href="img/gallery/_DSC7104.jpg">
                             <figure class="gallery-image">
