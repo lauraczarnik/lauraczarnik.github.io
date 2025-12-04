@@ -7,7 +7,6 @@
         <meta name="description" content="Página web de Laura Czarnik, actriz polaca residente en Madrid, con experiencia en publicidad, cortos y videoclips. Conoce su book actoral.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.jpg">
-        <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -21,48 +20,54 @@
         <link rel="stylesheet" href="css/default.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
+
+        <!-- NUEVO CSS PARA 4 COLUMNAS -->
+        <style>
+            .col4 .grid-item {
+                width: 25%; /* 4 columnas */
+            }
+            @media (max-width: 992px) {
+                .col4 .grid-item {
+                    width: 33.33%; /* 3 columnas */
+                }
+            }
+            @media (max-width: 768px) {
+                .col4 .grid-item {
+                    width: 50%; /* 2 columnas */
+                }
+            }
+            @media (max-width: 480px) {
+                .col4 .grid-item {
+                    width: 100%; /* 1 columna */
+                }
+            }
+        </style>
     </head>
+
     <body>
      <!-- header -->
         <header class="header-area">  
-			
             <div id="header-sticky" class="menu-area">
                 <div class="container">
                     <div class="second-menu">
                         <div class="row align-items-center">
-                            <div class="col-xl-2 col-lg-2">
-                            </div>
+                            <div class="col-xl-2 col-lg-2"></div>
                             <div class="col-xl-8 col-lg-8 text-center">
-                              
                                 <div class="main-menu">
                                     <nav id="mobile-menu">
                                          <ul>
-                                             <li class="has-sub">
-                                                <a href="index.html">HOME</a>
-                                            </li>
-                                            <li><a href="about.html">ABOUT ME</a></li>
-                                            <li class="has-sub"> 
-                                              <a href="book.html">BOOK</a>
-                                            </li>
-                                           <li><a href="portfolio.html">VIDEOS</a></li>
-                                            <!--<li class="has-sub"> 
-                                                <a href="blog.html">news</a>
-                                            </li>-->
-                                            <li><a href="#contact" class="smoth-scroll">CONTACT</a></li>                                                     
+                                             <li class="has-sub"><a href="index.html">HOME</a></li>
+                                             <li><a href="about.html">ABOUT ME</a></li>
+                                             <li class="has-sub"><a href="book.html">BOOK</a></li>
+                                             <li><a href="portfolio.html">VIDEOS</a></li>
+                                             <li><a href="#contact" class="smoth-scroll">CONTACT</a></li>                                                     
                                         </ul>
                                     </nav>
                                 </div>
                             </div>   
-                          
-                            <!--<div class="col-xl-2 col-lg-2 d-none d-lg-block">
-                                 <a href="index.html#contact" class="btn ss-btn smoth-scroll">Get A Quote <i class="fal fa-long-arrow-right"></i></a>
-                                 
-                            </div>-->
-                            
                             <div class="col-12 d-block d-lg-none">
                                 <div class="mobile-menu" style="margin-top: 60px;"></div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -72,89 +77,51 @@
         
         <!-- main-area -->
         <main>
-            
-            <!-- search-popup -->
-		<div class="modal fade bs-example-modal-lg search-bg popup1" tabindex="-1" role="dialog">
-			<div class="modal-dialog modal-lg" role="document">
-				<div class="modal-content search-popup">
-					<div class="text-center">
-						<a href="#" class="close2" data-dismiss="modal" aria-label="Close">× close</a>
-					</div>
-					<div class="row search-outer">
-						<div class="col-md-11"><input type="text" placeholder="Search for products..." /></div>
-						<div class="col-md-1 text-right"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- /search-popup -->
+
             <!-- breadcrumb-area -->
-             <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(img/slider/2.3.jpg)">
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(img/slider/2.3.jpg)">
                 <div class="container">
                     <div class="row justify-content-center align-items-center">
-                                <div class="col-lg-7 col-md-7 text-center">
-                                    <div class="slider-content s-slider-content mt-60">
-                                        <h5 data-animation="fadeInUp" data-delay=".4s" style="color: white;">BOOK</h5>
-                                        <h2 data-animation="fadeInUp" data-delay=".4s" style="color: white;">LAURA CZARNIK</h2>
-                                </div>
+                        <div class="col-lg-7 col-md-7 text-center">
+                            <div class="slider-content s-slider-content mt-60">
+                                <h5 style="color: white;">BOOK</h5>
+                                <h2 style="color: white;">LAURA CZARNIK</h2>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </section>
-            <!-- breadcrumb-area-end -->
 
-			  <!-- gallery-area -->
+            <!-- gallery-area -->
             <section id="portfolio" class="pt-120 pb-90" style="background: #222;">
                 <div class="container">                  
 					<div class="portfolio ">
                         <div class="row align-items-center mb-50">
                             <div class="col-lg-5">
-                                 <div class="section-title wow fadeInLeft  animated" data-animation="fadeInLeft" data-delay=".4s">
-                                 <h5>BOOK</h5>
-                                <h2>
-                                 LAURA CZARNIK
-                                </h2>
-                             
-                            </div>
-                                
+                                <div class="section-title">
+                                    <h5>BOOK</h5>
+                                    <h2>LAURA CZARNIK</h2>
+                                </div>
                             </div>
                             <div class="col-lg-7">
-                                 <div class="my-masonry text-right wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
-                            <div class="button-group filter-button-group ">
-                                <button class="active" data-filter="*">TODO</button>
-								<button data-filter=".actoral">ACTORAL</button>
-								<button data-filter=".habilidades">HABILIDADES</button>	
-								<button data-filter=".frames">FRAMES</button>
-								<button data-filter=".otros">OTROS</button>
-							</div>
-                        </div>
+                                <div class="my-masonry text-right">
+                                    <div class="button-group filter-button-group ">
+                                        <button class="active" data-filter="*">TODO</button>
+                                        <button data-filter=".actoral">ACTORAL</button>
+                                        <button data-filter=".habilidades">HABILIDADES</button>	
+                                        <button data-filter=".frames">FRAMES</button>
+                                        <button data-filter=".otros">OTROS</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                      
 
-                <div class="grid col3 wow fadeInUp  animated" data-animation="fadeInUp" data-delay=".4s">
+
+                <div class="grid col4 wow fadeInUp  animated" data-animation="fadeInUp" data-delay=".4s">
 				   	<div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0762.jpg">
+                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0880.jpg">
                             <figure class="gallery-image">
                               <img src="img/gallery/LAURA BRUTOS0762.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
-                               
-                            </figure>
-                          </a>
-                    </div>
-                    <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0795.jpg">
-                            <figure class="gallery-image">
-                              <img src="img/gallery/LAURA BRUTOS0784.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
-                               
-                            </figure>
-                          </a>
-                    </div>
-                    <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0816.jpg">
-                            <figure class="gallery-image">
-                              <img src="img/gallery/LAURA BRUTOS0779.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
                                
                             </figure>
                           </a>
@@ -168,7 +135,23 @@
                           </a>
                     </div>
                     <div class="grid-item actoral">
+                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0915.jpg">
+                            <figure class="gallery-image">
+                              <img src="img/gallery/LAURA BRUTOS0779.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
+                               
+                            </figure>
+                          </a>
+                    </div>
+                    <div class="grid-item actoral">
                         	<a class="popup-image" href="img/gallery/LAURA BRUTOS0845.jpg">
+                            <figure class="gallery-image">
+                              <img src="img/gallery/LAURA BRUTOS0784.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
+                               
+                            </figure>
+                          </a>
+                    </div>
+                    <div class="grid-item actoral">
+                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0762.jpg">
                             <figure class="gallery-image">
                               <img src="img/gallery/LAURA BRUTOS0869.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
                                
@@ -176,7 +159,7 @@
                           </a>
                     </div>
                     <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0915.jpg">
+                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0784.jpg">
                             <figure class="gallery-image">
                               <img src="img/gallery/LAURA BRUTOS0795.jpg" aalt="Imagen book de la actriz Laura Czarnik" class="img">      
                                
@@ -184,7 +167,7 @@
                           </a>
                     </div>
                     <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0886.jpg">
+                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0795.jpg">
                             <figure class="gallery-image">
                               <img src="img/gallery/LAURA BRUTOS0816.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
                                
@@ -192,7 +175,7 @@
                           </a>
                     </div>
                     <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0904.jpg">
+                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0816.jpg">
                             <figure class="gallery-image">
                               <img src="img/gallery/LAURA BRUTOS0839.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
                                
@@ -200,7 +183,7 @@
                           </a>
                     </div>
                     <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0873.jpg">
+                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0943.jpg">
                             <figure class="gallery-image">
                               <img src="img/gallery/LAURA BRUTOS0844.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
                                
@@ -216,7 +199,7 @@
                           </a>
                     </div>
                      <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0939.jpg">
+                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS1024.jpg">
                             <figure class="gallery-image">
                               <img src="img/gallery/LAURA BRUTOS0861.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
                                
@@ -224,7 +207,7 @@
                           </a>
                     </div>
                      <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0943.jpg">
+                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS1032.jpg">
                             <figure class="gallery-image">
                               <img src="img/gallery/LAURA BRUTOS0869.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
                                
@@ -232,7 +215,7 @@
                           </a>
                     </div>
                      <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0839.jpg">
+                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS1003.jpg">
                             <figure class="gallery-image">
                               <img src="img/gallery/LAURA BRUTOS0873.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
                                
@@ -248,7 +231,7 @@
                           </a>
                     </div>
                      <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0844.jpg">
+                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0939.jpg">
                             <figure class="gallery-image">
                               <img src="img/gallery/LAURA BRUTOS0880.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
                                
@@ -256,48 +239,31 @@
                           </a>
                     </div>
                     <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS1003.jpg">
+                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS0780.jpg">
                             <figure class="gallery-image">
                               <img src="img/gallery/LAURA BRUTOS0885.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
                                
                             </figure>
                           </a>
                     </div>
-                    <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS1024.jpg">
-                            <figure class="gallery-image">
-                              <img src="img/gallery/LAURA BRUTOS1024.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
-                               
-                            </figure>
-                          </a>
-                    </div>
-                    <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS1030.jpg">
-                            <figure class="gallery-image">
-                              <img src="img/gallery/LAURA BRUTOS1030.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
-                               
-                            </figure>
-                          </a>
-                    </div>
-                    <div class="grid-item actoral">
-                        	<a class="popup-image" href="img/gallery/LAURA BRUTOS1032.jpg">
-                            <figure class="gallery-image">
-                              <img src="img/gallery/LAURA BRUTOS1032.jpg" alt="Imagen book de la actriz Laura Czarnik" class="img">      
-                               
-                            </figure>
-                          </a>
-                    </div>
-
+                    
                     
 		            <div class="grid-item habilidades">
-                       <a class="popup-image" href="img/gallery/_DSC7140.jpg">
+                       <a class="popup-image" href="img/gallery/_DSC7104.jpg">
                             <figure class="gallery-image">
                              <img src="img/gallery/DSC7140.jpg" alt="Actriz Laura Czarnik haciendo gimnasia rítmica / yoga / ballet" class="img"> 
                             </figure>
                           </a>
                     </div>
                     <div class="grid-item habilidades">
-                       <a class="popup-image" href="img/gallery/DSC7104.jpg">
+                       <a class="popup-image" href="img/gallery/DSC7140.jpg">
+                            <figure class="gallery-image">
+                             <img src="img/gallery/DSC7104.jpg" alt="Actriz Laura Czarnik haciendo gimnasia rítmica / yoga / ballet" class="img"> 
+                            </figure>
+                          </a>
+                    </div>
+					 <div class="grid-item habilidades">
+                       <a class="popup-image" href="img/gallery/DSC7164.jpg">
                             <figure class="gallery-image">
                              <img src="img/gallery/DSC7104.jpg" alt="Actriz Laura Czarnik haciendo gimnasia rítmica / yoga / ballet" class="img"> 
                             </figure>
