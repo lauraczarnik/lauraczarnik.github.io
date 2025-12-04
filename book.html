@@ -42,6 +42,14 @@
 		  border-radius: 6px;
 		  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 		}
+			/* Unificar tamaño de TODAS las fotos de FRAMES */
+		.grid-item.frames .gallery-image img {
+		    width: 100%;
+		    height: 300px;           /* <- AJUSTA AQUÍ EL TAMAÑO QUE QUIERAS */
+		    object-fit: cover;       /* Mantiene proporción y recorta elegantemente */
+		    display: block;
+		}
+
         </style>
     </head>
 
