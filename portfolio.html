@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>LAURA CZARNIK ACTRIZ PORTFOLIO</title>
-        <meta name="description" content="Página web de Laura Czarnik, actriz polaca residente en Madrid, con experiencia en publicidad, cortos y videoclips. Conoce las mejores escenas de Laura Czarnik.">
+        <title data-i18n="meta.portfolio_title">LAURA CZARNIK ACTRIZ PORTFOLIO</title>
+        <meta name="description" data-i18n-attr="content:meta.portfolio_desc" content="Página web de Laura Czarnik, actriz polaca residente en Madrid, con experiencia en publicidad, cortos y videoclips. Conoce las mejores escenas de Laura Czarnik.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.jpg">
 
@@ -140,17 +140,25 @@
                                 <div class="main-menu">
                                     <nav id="mobile-menu">
                                          <ul>
-                                             <li class="has-sub"><a href="index.html">HOME</a></li>
-                                             <li><a href="about.html">ABOUT ME</a></li>
-                                             <li class="has-sub"><a href="book.html">BOOK</a></li>
-                                             <li><a href="portfolio.html">VIDEOS</a></li>
-                                             <li><a href="#contact" class="smoth-scroll">CONTACT</a></li>
+                                             <li class="has-sub"><a href="index.html" data-i18n="nav.home">INICIO</a></li>
+                                             <li><a href="about.html" data-i18n="nav.about">SOBRE MÍ</a></li>
+                                             <li class="has-sub"><a href="book.html" data-i18n="nav.book">BOOK</a></li>
+                                             <li><a href="portfolio.html" data-i18n="nav.videos">VIDEOS</a></li>
+                                             <li><a href="#contact" class="smoth-scroll" data-i18n="nav.contact">CONTACTO</a></li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
+
+                            <div class="col-xl-2 col-lg-2 d-none d-lg-flex align-items-center justify-content-end lang-switcher">
+                                <a href="#" data-lang="es">ES</a><span class="lang-sep">|</span><a href="#" data-lang="pl">PL</a><span class="lang-sep">|</span><a href="#" data-lang="en">EN</a>
+                            </div>
+
                             <div class="col-12 d-block d-lg-none">
                                 <div class="mobile-menu" style="margin-top: 60px;"></div>
+                            </div>
+                            <div class="col-12 d-flex d-lg-none justify-content-center lang-switcher mb-3">
+                                <a href="#" data-lang="es">ES</a><span class="lang-sep">|</span><a href="#" data-lang="pl">PL</a><span class="lang-sep">|</span><a href="#" data-lang="en">EN</a>
                             </div>
                         </div>
                     </div>
@@ -167,7 +175,7 @@
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-7 col-md-7 text-center">
                             <div class="slider-content s-slider-content mt-60">
-                                <h5 style="color: white;">VIDEOS</h5>
+                                <h5 style="color: white;" data-i18n="nav.videos">VIDEOS</h5>
                                 <h2 style="color: white;">LAURA CZARNIK</h2>
                             </div>
                         </div>
@@ -182,7 +190,7 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
                             <div class="section-title mb-50 wow fadeInLeft animated text-center" data-animation="fadeInLeft" data-delay=".4s">
-                                <h5>ACTING</h5>
+                                <h5 data-i18n="portfolio.videobook_kicker">ACTING</h5>
                                 <h2>VIDEOBOOK</h2>
                             </div>
                         </div>
@@ -207,8 +215,8 @@
                     <div class="row align-items-center"> 
                         <div class="col-lg-12">
                             <div class="section-title center-align mb-50 text-center" style="margin-bottom: 30px;">
-                                <h5>ACTING</h5>
-                                <h2>SCENES</h2>
+                                <h5 data-i18n="portfolio.escenas_kicker">ACTING</h5>
+                                <h2 data-i18n="portfolio.escenas_title">SCENES</h2>
                             </div>
                         </div>
                     </div>
@@ -218,25 +226,25 @@
 
                       <!-- Polaco -->
                       <div class="video-col">
-                        <div class="video-card-title">Polaco</div>
+                        <div class="video-card-title" data-i18n="portfolio.v_polaco">Polaco</div>
                         <div class="video-thumb" data-video="p9_ElXpzTbo" style="background-image: url('https://img.youtube.com/vi/p9_ElXpzTbo/hqdefault.jpg');"></div>
                       </div>
 
                       <!-- Thriller -->
                       <div class="video-col">
-                        <div class="video-card-title">Thriller</div>
+                        <div class="video-card-title" data-i18n="portfolio.v_thriller">Thriller</div>
                         <div class="video-thumb" data-video="3gdTeu0l5rk" style="background-image: url('https://img.youtube.com/vi/3gdTeu0l5rk/hqdefault.jpg');"></div>
                       </div>
 
                       <!-- Época -->
                       <div class="video-col">
-                        <div class="video-card-title">Época</div>
+                        <div class="video-card-title" data-i18n="portfolio.v_epoca">Época</div>
                         <div class="video-thumb" data-video="DrKlD4-G68s" style="background-image: url('https://img.youtube.com/vi/DrKlD4-G68s/hqdefault.jpg');"></div>
                       </div>
 
                       <!-- Drama (3 vídeos en 3 columnas) -->
                       <div class="video-col">
-                        <div class="video-card-title">Drama</div>
+                        <div class="video-card-title" data-i18n="portfolio.v_drama">Drama</div>
                         <div class="video-thumb" data-video="AmhMlOM1PJk" style="background-image: url('https://img.youtube.com/vi/AmhMlOM1PJk/hqdefault.jpg');"></div>
                       </div>
 
@@ -259,20 +267,20 @@
             <section id="habilidades" class="blog-area p-relative pt-120 pb-90 fix" style="background: #000;">
                 <div class="container">
                     <div class="section-title center-align mb-50 text-center">
-                        <h5>OTHERS</h5>
-                        <h2>SKILLS</h2>
+                        <h5 data-i18n="portfolio.otros_kicker">OTHERS</h5>
+                        <h2 data-i18n="portfolio.habilidades_title">SKILLS</h2>
                     </div>
 
                     <!-- Mismo layout que escenas: grid 3 columnas -->
                     <div class="video-grid">
 
                       <div class="video-col">
-                        <div class="video-card-title">Baile</div>
+                        <div class="video-card-title" data-i18n="portfolio.v_baile">Baile</div>
                         <div class="video-thumb" data-video="rhM_mZ2nNT0" style="background-image: url('https://img.youtube.com/vi/rhM_mZ2nNT0/hqdefault.jpg');"></div>
                       </div>
 
                       <div class="video-col">
-                        <div class="video-card-title">Lucha escénica</div>
+                        <div class="video-card-title" data-i18n="portfolio.v_lucha">Lucha escénica</div>
                         <div class="video-thumb" data-video="vnGM538t6Xg" style="background-image: url('https://img.youtube.com/vi/vnGM538t6Xg/hqdefault.jpg');"></div>
                       </div>
 
@@ -308,7 +316,7 @@
             <div class="container" style="max-width: 900px; margin: 0 auto;">
               <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 100px;">
                 <div style="flex: 1; min-width: 280px; max-width: 320px; color: #131819; font-family: 'Open Sans', sans-serif;">
-                  <h3 style="color: #131819; margin-bottom: 15px; font-size: 22px; font-family: 'Playfair Display', serif; font-weight: 700;">Representante</h3>
+                  <h3 style="color: #131819; margin-bottom: 15px; font-size: 22px; font-family: 'Playfair Display', serif; font-weight: 700;" data-i18n="footer.representante">Representante</h3>
                   <p style="margin: 5px 0; font-size: 15px;"><strong>Marieta Berenguer</strong></p>
                   <p style="margin: 5px 0; font-size: 15px; display: flex; align-items: center; gap: 6px;">
                     <i data-feather="mail" style="width: 16px; height: 16px; stroke-width: 1.5;"></i>
@@ -321,7 +329,7 @@
                 </div>
 
                 <div style="flex: 1; min-width: 280px; max-width: 320px; color: #131819; font-family: 'Open Sans', sans-serif;">
-                  <h3 style="color: #131819; margin-bottom: 12px; font-size: 22px; font-family: 'Playfair Display', serif; font-weight: 700;">Sígueme</h3>
+                  <h3 style="color: #131819; margin-bottom: 12px; font-size: 22px; font-family: 'Playfair Display', serif; font-weight: 700;" data-i18n="footer.sigueme">Sígueme</h3>
                   <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; font-size: 15px;">
                     <li>
                       <a href="https://www.youtube.com/@LauraCzarnik.actriz" target="_blank" rel="noopener noreferrer" style="color: #131819; text-decoration: none; display: flex; align-items: center; gap: 8px; transition: color 0.3s ease;">
@@ -374,6 +382,8 @@
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/element-in-view.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/translations.js"></script>
+        <script src="js/i18n.js"></script>
 
         <!-- Script para abrir modal y cargar iframe (mejora rendimiento) -->
         <script>

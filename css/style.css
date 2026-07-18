@@ -524,6 +524,30 @@ text-decoration: none;
 .main-menu ul li:hover > a{color: #cc866c;text-decoration: underline;}
 .main-menu ul li.active a{color: #cc866c;text-decoration: underline;}
 .main-menu ul li:hover > a::before{width: 100%;}
+
+.lang-switcher {
+  gap: 2px;
+}
+.lang-switcher a {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 4px 6px;
+  opacity: 0.65;
+  transition: color .2s ease, opacity .2s ease;
+}
+.lang-switcher a:hover,
+.lang-switcher a.active {
+  color: #cc866c;
+  opacity: 1;
+  text-decoration: underline;
+}
+.lang-switcher .lang-sep {
+  color: rgba(255,255,255,0.35);
+}
 .display-ib{display: inline-block;}
 .header-btn{margin-left: -40px;}
 .header-social a {

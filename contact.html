@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>LAURA CZARNIK ACTRIZ CONTACTO</title>
-        <meta name="description" content="Página web de Laura Czarnik, actriz polaca residente en Madrid, con experiencia en publicidad, cortos y videoclips. Contactar con Laura Czarnik.">
+        <title data-i18n="meta.contact_title">LAURA CZARNIK ACTRIZ CONTACTO</title>
+        <meta name="description" data-i18n-attr="content:meta.contact_desc" content="Página web de Laura Czarnik, actriz polaca residente en Madrid, con experiencia en publicidad, cortos y videoclips. Contactar con Laura Czarnik.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.jpg">
         <!-- Place favicon.ico in the root directory -->
@@ -41,29 +41,31 @@
                                     <nav id="mobile-menu">
                                          <ul>
                                              <li class="has-sub">
-                                                <a href="index.html">HOME</a>
+                                                <a href="index.html" data-i18n="nav.home">INICIO</a>
                                             </li>
-                                            <li><a href="about.html">ABOUT ME</a></li>
-                                            <li class="has-sub"> 
-                                              <a href="book.html">BOOK</a>
+                                            <li><a href="about.html" data-i18n="nav.about">SOBRE MÍ</a></li>
+                                            <li class="has-sub">
+                                              <a href="book.html" data-i18n="nav.book">BOOK</a>
                                             </li>
-                                           <li><a href="portfolio.html">VIDEOS</a></li>
-                                            <!--<li class="has-sub"> 
+                                           <li><a href="portfolio.html" data-i18n="nav.videos">VIDEOS</a></li>
+                                            <!--<li class="has-sub">
                                                 <a href="blog.html">news</a>
                                             </li>-->
-                                            <li><a href="contact.html">CONTACT</a></li>                                                  
+                                            <li><a href="contact.html" data-i18n="nav.contact">CONTACTO</a></li>
                                         </ul>
                                     </nav>
                                 </div>
-                            </div>   
-                          
-                            <!--<div class="col-xl-2 col-lg-2 d-none d-lg-block">
-                                 <a href="index.html#contact" class="btn ss-btn smoth-scroll">Get A Quote <i class="fal fa-long-arrow-right"></i></a>
-                                 
-                            </div>-->
-                            
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 d-none d-lg-flex align-items-center justify-content-end lang-switcher">
+                                <a href="#" data-lang="es">ES</a><span class="lang-sep">|</span><a href="#" data-lang="pl">PL</a><span class="lang-sep">|</span><a href="#" data-lang="en">EN</a>
+                            </div>
+
                             <div class="col-12 d-block d-lg-none">
                                 <div class="mobile-menu" style="margin-top: 60px;"></div>
+                            </div>
+                            <div class="col-12 d-flex d-lg-none justify-content-center lang-switcher mb-3">
+                                <a href="#" data-lang="es">ES</a><span class="lang-sep">|</span><a href="#" data-lang="pl">PL</a><span class="lang-sep">|</span><a href="#" data-lang="en">EN</a>
                             </div>
 
                         </div>
@@ -97,7 +99,7 @@
                     <div class="row justify-content-center align-items-center">
                                 <div class="col-lg-7 col-md-7 text-center">
                                     <div class="slider-content s-slider-content mt-60">
-                                        <h5 data-animation="fadeInUp" data-delay=".4s" style="color: white;">CONTACT</h5>
+                                        <h5 data-animation="fadeInUp" data-delay=".4s" style="color: white;" data-i18n="contact.breadcrumb_kicker">CONTACTO</h5>
                                         <h2 data-animation="fadeInUp" data-delay=".4s" style="color: white;">LAURA CZARNIK</h2>
                                 </div>
                             </div>
@@ -111,7 +113,7 @@
         <!-- contact-area -->
             <section id="contact" class="contact-area pt-95 pb-100" style="background:#cc866c;" >
                  <div class="section-title center-align mb-50 text-center">
-                                <h2>
+                                <h2 data-i18n="contact.title">
                                    Contacto
                                 </h2>
                             </div>
@@ -159,9 +161,9 @@
                     </style>
 
                     <form action="https://formsubmit.co/lauraszmigielska.actriz@gmail.com" method="POST" class="contact-form">
-                    <input name="email" type="email" placeholder="Tu correo..." required>
-                    <textarea name="message" placeholder="Tu mensaje..." required></textarea>
-                    <button type="submit">Enviar</button>
+                    <input name="email" type="email" placeholder="Tu correo..." data-i18n-attr="placeholder:contact.email_placeholder" required>
+                    <textarea name="message" placeholder="Tu mensaje..." data-i18n-attr="placeholder:contact.message_placeholder" required></textarea>
+                    <button type="submit" data-i18n="contact.send_btn">Enviar</button>
                     </form>
 
                     
@@ -239,5 +241,7 @@
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/element-in-view.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/translations.js"></script>
+        <script src="js/i18n.js"></script>
     </body>
 </html>
