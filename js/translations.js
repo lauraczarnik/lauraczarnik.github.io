@@ -43,7 +43,7 @@ window.SITE_I18N = {
       hero_kicker: "ACTRIZ",
       videobook_btn: "VIDEOBOOK",
       about_kicker: "Sobre mí",
-      about_bio: `Laura Czarnik es actriz polaco-madrileña, trilingüe en español, inglés y polaco.
+      about_bio: `Laura Czarnik es una actriz polaca criada en Madrid, España, trilingüe en español, inglés y polaco.
                   <br>Su cortometraje "Gracias por nada" ha ganado el Premio del Jurado a Mejor Arte en Corto en el Festival La Raíz, con nominaciones en Festimatge, el Festival de Cortos Rodinia, el FFICAB de Albacete y los IV Premis Costa Brava.
                   <br>Formada en Central de Cine y Work in Progress, combina 8 años de gimnasia rítmica con formación en danza en varios estilos y conocimientos básicos de lucha escénica y manejo de armas.`,
       book_kicker: "BOOK",
@@ -52,7 +52,7 @@ window.SITE_I18N = {
     about: {
       breadcrumb_kicker: "SOBRE MÍ",
       section_kicker: "Sobre mí",
-      bio: `Laura Czarnik es una actriz polaco-madrileña que se mueve con la misma naturalidad entre el drama, la acción y la comedia física. Trilingüe en español, inglés y polaco, su origen europeo la convierte en una pieza poco común en el mapa de casting español: apta tanto para producciones nacionales como para coproducciones con Polonia y el resto de Europa del Este.
+      bio: `Laura Czarnik es una actriz polaca criada en Madrid, España, que se mueve con la misma naturalidad entre el drama, la acción y el cine de época. Trilingüe en español, inglés y polaco, su origen europeo la convierte en una pieza poco común en el mapa de casting español: apta tanto para producciones nacionales como para coproducciones con Polonia y el resto de Europa del Este.
              <br>Formada en Central de Cine y Work in Progress, ha protagonizado los videoclips "Tu nene" (Dasoul) y "Boomerang" (Adexe y Nau), y ha participado en cortometrajes como "Dissonantia", "Mirage" y "El Conticinio". Su cortometraje "Gracias por nada" ha sido premiado con el Premio del Jurado a Mejor Arte en Corto en el Festival La Raíz, y ha recibido nominaciones en Festimatge (31º Trofeu Torretes de Curtmetratges), el Festival de Cortos Rodinia, el FFICAB de Albacete y los IV Premis Costa Brava (Mejor Cortometraje y Mejor Guión Original o Adaptado).
              <br>Con 8 años de gimnasia rítmica y formación en danza desde niña en varios estilos, además de conocimientos básicos de lucha escénica y manejo de armas, aprende coreografías y movimiento escénico con rapidez, aportando a cada personaje una base física entrenada.`
     },
@@ -123,7 +123,7 @@ window.SITE_I18N = {
       hero_kicker: "ACTRESS",
       videobook_btn: "VIDEOBOOK",
       about_kicker: "About Me",
-      about_bio: `Laura Czarnik is a Polish-Madrilenian actress, trilingual in Spanish, English and Polish.
+      about_bio: `Laura Czarnik is a Polish actress raised in Madrid, Spain, trilingual in Spanish, English and Polish.
                   <br>Her short film "Gracias por nada" won the Jury Award for Best Art House Short at the Festival La Raíz, with nominations at Festimatge, the Rodinia Short Film Festival, FFICAB Albacete and the 4th Costa Brava Awards.
                   <br>Trained at Central de Cine and Work in Progress, she combines 8 years of rhythmic gymnastics with training in various dance styles and basic knowledge of stage combat and weapons handling.`,
       book_kicker: "BOOK",
@@ -132,7 +132,7 @@ window.SITE_I18N = {
     about: {
       breadcrumb_kicker: "ABOUT ME",
       section_kicker: "About Me",
-      bio: `Laura Czarnik is a Polish-Madrilenian actress who moves with equal ease between drama, action and physical comedy. Trilingual in Spanish, English and Polish, her European background makes her a rare fit on the Spanish casting scene: equally suited to national productions and co-productions with Poland and the rest of Eastern Europe.
+      bio: `Laura Czarnik is a Polish actress raised in Madrid, Spain, who moves with equal ease between drama, action and period pieces. Trilingual in Spanish, English and Polish, her European background makes her a rare fit on the Spanish casting scene: equally suited to national productions and co-productions with Poland and the rest of Eastern Europe.
              <br>Trained at Central de Cine and Work in Progress, she has starred in the music videos "Tu nene" (Dasoul) and "Boomerang" (Adexe y Nau), and has appeared in short films such as "Dissonantia", "Mirage" and "El Conticinio". Her short film "Gracias por nada" won the Jury Award for Best Art House Short at the Festival La Raíz, and has received nominations at Festimatge (31st Trofeu Torretes de Curtmetratges), the Rodinia Short Film Festival, FFICAB Albacete and the 4th Costa Brava Awards (Best Short Film and Best Original or Adapted Screenplay).
              <br>With 8 years of rhythmic gymnastics and dance training since childhood across various styles, plus basic knowledge of stage combat and weapons handling, she picks up choreography and stage movement quickly, bringing a well-trained physicality to every character.`
     },
@@ -203,7 +203,7 @@ window.SITE_I18N = {
       hero_kicker: "AKTORKA",
       videobook_btn: "VIDEOBOOK",
       about_kicker: "O mnie",
-      about_bio: `Laura Czarnik jest polsko-madrycką aktorką, mówi biegle po hiszpańsku, angielsku i polsku.
+      about_bio: `Laura Czarnik jest polską aktorką wychowaną w Madrycie, w Hiszpanii, mówi biegle po hiszpańsku, angielsku i polsku.
                   <br>Jej krótki metraż "Gracias por nada" zdobył Nagrodę Jury dla Najlepszego Krótkiego Filmu Artystycznego na festiwalu La Raíz, z nominacjami na festiwalach Festimatge, Rodinia Short Film Festival, FFICAB Albacete oraz IV edycji Costa Brava Awards.
                   <br>Wykształcona w Central de Cine i Work in Progress, łączy 8 lat gimnastyki artystycznej z nauką tańca w różnych stylach oraz podstawową wiedzą z zakresu walki scenicznej i posługiwania się bronią.`,
       book_kicker: "BOOK",
@@ -212,7 +212,7 @@ window.SITE_I18N = {
     about: {
       breadcrumb_kicker: "O MNIE",
       section_kicker: "O mnie",
-      bio: `Laura Czarnik to polsko-madrycka aktorka, która porusza się z równą swobodą w dramacie, akcji i komedii fizycznej. Mówiąc biegle po hiszpańsku, angielsku i polsku, dzięki swoim europejskim korzeniom jest rzadkością na hiszpańskiej scenie castingowej: pasuje zarówno do produkcji krajowych, jak i koprodukcji z Polską i resztą Europy Wschodniej.
+      bio: `Laura Czarnik to polska aktorka wychowana w Madrycie, w Hiszpanii, która porusza się z równą swobodą w dramacie, akcji i kinie kostiumowym. Mówiąc biegle po hiszpańsku, angielsku i polsku, dzięki swoim europejskim korzeniom jest rzadkością na hiszpańskiej scenie castingowej: pasuje zarówno do produkcji krajowych, jak i koprodukcji z Polską i resztą Europy Wschodniej.
              <br>Wykształcona w Central de Cine i Work in Progress, zagrała główne role w teledyskach "Tu nene" (Dasoul) i "Boomerang" (Adexe y Nau), a także wystąpiła w krótkometrażówkach takich jak "Dissonantia", "Mirage" i "El Conticinio". Jej krótki metraż "Gracias por nada" zdobył Nagrodę Jury dla Najlepszego Krótkiego Filmu Artystycznego na festiwalu La Raíz, a także nominacje na festiwalu Festimatge (31. edycja Trofeu Torretes de Curtmetratges), Rodinia Short Film Festival, FFICAB Albacete oraz IV edycji Costa Brava Awards (Najlepszy Krótki Metraż i Najlepszy Scenariusz Oryginalny lub Adaptowany).
              <br>Dzięki 8 latom gimnastyki artystycznej i nauce tańca w różnych stylach od dziecka, a także podstawowej wiedzy z zakresu walki scenicznej i posługiwania się bronią, szybko przyswaja choreografie i ruch sceniczny, wnosząc do każdej postaci wytrenowaną fizyczność.`
     },
